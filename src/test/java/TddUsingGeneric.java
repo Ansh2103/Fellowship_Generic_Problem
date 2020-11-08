@@ -50,10 +50,39 @@ public class TddUsingGeneric {
         float max = maximum.findMax(27.7f, 33.3f, 23.3f);
         Assert.assertEquals(33.3f, max, 0.00003);
     }
+
     @Test
     public void ThirdFloatValueShouldReturnThirdValueAsMaximum() {
         Maximum maximum = new Maximum();
         float max = maximum.findMax(17.3f, 7.3f, 33.3f);
         Assert.assertEquals(33.3f, max, 0.00003);
+    }
+
+    @Test
+    public void FirstStringValueShouldReturnFirstStringAsMaximumValue(){
+        Maximum maximum = new Maximum();
+        String max = maximum.findMax("Orange","Aple","Guava");
+        Assert.assertEquals("Orange", max);
+    }
+
+    @Test
+    public void FirstStringValueShouldNotReturnFirstStringAsMaximumValue(){
+        Maximum maximum = new Maximum();
+        String max = maximum.findMax("Orange","Aple","Guava");
+        Assert.assertNotEquals("Guava", max);
+    }
+
+    @Test
+    public void SecondStringValueShouldReturnSecondStringAsMaximumValue(){
+        Maximum maximum = new Maximum();
+        String max = maximum.findMax("Grapes","Pomegranete","Papaya");
+        Assert.assertEquals("Pomegranete", max);
+    }
+
+    @Test
+    public void ThirdStringValueShouldReturnThirdStringAsMaximumValue(){
+        Maximum maximum = new Maximum();
+        String max = maximum.findMax("Apple","Orange","Pomegranete");
+        Assert.assertEquals("Pomegranete", max);
     }
 }

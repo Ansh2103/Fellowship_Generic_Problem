@@ -27,4 +27,19 @@ public class Maximum {
         }
         return max;
     }
+
+    public String findMax( String fValue, String sValue, String tValue) {
+
+        String max = fValue;
+
+        if(sValue.compareTo(max) > 0)
+        {
+            max = sValue;
+        }
+        if(tValue.compareTo(max) >0)
+        {
+            max = tValue;
+        }
+        return max;
+    }
 }
