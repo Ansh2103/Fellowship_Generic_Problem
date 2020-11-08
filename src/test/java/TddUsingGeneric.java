@@ -30,4 +30,30 @@ public class TddUsingGeneric {
         int max = maximum.findMax(7,8,10);
         Assert.assertEquals(10,max);
     }
+    @Test
+    public void FirstFloatValueShouldReturnFirstValueAsMaximum() {
+        Maximum maximum = new Maximum();
+        float max = maximum.findMax(33.3f, 27.7f, 7.7f);
+        Assert.assertEquals(33.3f, max, 0.00003);
+    }
+
+    @Test
+    public void FirstFloatValueShouldNotReturnFirstValueAsMaximum() {
+        Maximum maximum = new Maximum();
+        float max = maximum.findMax(33.3f, 27.7f, 7.7f);
+        Assert.assertNotEquals(27.7f, max, 0.00003);
+    }
+
+    @Test
+    public void SecondFloatValueShouldReturnSecondValueAsMaximum() {
+        Maximum maximum = new Maximum();
+        float max = maximum.findMax(27.7f, 33.3f, 23.3f);
+        Assert.assertEquals(33.3f, max, 0.00003);
+    }
+    @Test
+    public void ThirdFloatValueShouldReturnThirdValueAsMaximum() {
+        Maximum maximum = new Maximum();
+        float max = maximum.findMax(17.3f, 7.3f, 33.3f);
+        Assert.assertEquals(33.3f, max, 0.00003);
+    }
 }
