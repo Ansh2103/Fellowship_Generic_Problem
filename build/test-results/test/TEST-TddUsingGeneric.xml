@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TddUsingGeneric" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-08T13:12:23" hostname="DESKTOP-IGIGSJS" time="0.007">
+  <properties/>
+  <testcase name="First_Result_Should_Not_Return_First_Maximum" classname="TddUsingGeneric" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
