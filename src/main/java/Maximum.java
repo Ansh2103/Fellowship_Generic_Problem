@@ -1,37 +1,18 @@
+import java.util.Arrays;
+
 public class Maximum <T extends  Comparable<T>> {
 
-    private T  fValue, sValue , tValue;
+    private T arrayOfValues[];
 
-    public Maximum(T fValue, T sValue, T tValue) {
-        this.fValue = fValue;
-        this.sValue = sValue;
-        this.tValue = tValue;
+    public Maximum(T[] arrayOfValues) {
+        this.arrayOfValues = arrayOfValues;
     }
 
-    public T getfValue() {
-        return fValue;
-    }
+    public T maxValueBWThree() {
+        Arrays.sort(arrayOfValues);
 
-    public T getsValue() {
-        return sValue;
+        Arrays.stream(arrayOfValues).forEach(System.out :: println );
+        return arrayOfValues[arrayOfValues.length - 1];
     }
-
-    public T gettValue() {
-        return tValue;
-    }
-
-    public T findMax() {
-        T max = getfValue();
-        if(getsValue().compareTo(max) > 0 )
-        {
-            max = getsValue();
-        }
-        if(gettValue().compareTo(max) >0)
-        {
-            max = gettValue();
-        }
-        return max;
-    }
-
 
 }
