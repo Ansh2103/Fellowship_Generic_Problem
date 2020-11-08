@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TddUsingGeneric" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-08T13:26:35" hostname="DESKTOP-IGIGSJS" time="0.008">
+<testsuite name="TddUsingGeneric" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-08T13:58:33" hostname="DESKTOP-IGIGSJS" time="0.017">
   <properties/>
-  <testcase name="FirstFloatValueShouldNotReturnFirstValueAsMaximum" classname="TddUsingGeneric" time="0.008"/>
+  <testcase name="Third_Result_Should_Return_Third_Maximum" classname="TddUsingGeneric" time="0.017"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
