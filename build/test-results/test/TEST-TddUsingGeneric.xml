@@ -1,62 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TddUsingGeneric" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-11-08T15:19:11" hostname="DESKTOP-IGIGSJS" time="0.06">
+<testsuite name="TddUsingGeneric" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-08T15:35:17" hostname="DESKTOP-IGIGSJS" time="0.015">
   <properties/>
-  <testcase name="ThirdFloatValueShouldReturnThirdValueAsMaximum" classname="TddUsingGeneric" time="0.032"/>
-  <testcase name="Third_Result_Should_Return_Third_Maximum" classname="TddUsingGeneric" time="0.007"/>
-  <testcase name="SecondStringValueShouldReturnSecondStringAsMaximumValue" classname="TddUsingGeneric" time="0.001"/>
-  <testcase name="First_Result_Should_Not_Return_First_Maximum" classname="TddUsingGeneric" time="0.001"/>
-  <testcase name="First_Result_Should_Return_First_Maximum" classname="TddUsingGeneric" time="0.002"/>
-  <testcase name="Second_Result_Should_Return_Second_Maximum" classname="TddUsingGeneric" time="0.005"/>
-  <testcase name="ThirdStringValueShouldReturnThirdStringAsMaximumValue" classname="TddUsingGeneric" time="0.001"/>
-  <testcase name="FirstFloatValueShouldReturnFirstValueAsMaximum" classname="TddUsingGeneric" time="0.001"/>
-  <testcase name="FirstStringValueShouldNotReturnFirstStringAsMaximumValue" classname="TddUsingGeneric" time="0.001"/>
-  <testcase name="SecondFloatValueShouldReturnSecondValueAsMaximum" classname="TddUsingGeneric" time="0.0"/>
-  <testcase name="FirstFloatValueShouldNotReturnFirstValueAsMaximum" classname="TddUsingGeneric" time="0.0"/>
-  <testcase name="FirstStringValueShouldReturnFirstStringAsMaximumValue" classname="TddUsingGeneric" time="0.001"/>
-  <system-out><![CDATA[7.3
-17.3
-33.3
-1
-3
-7
-9
-10
-Grapes
-Papaya
-Pomegranete
-1
+  <testcase name="First_Result_Should_Return_First_Maximum" classname="TddUsingGeneric" time="0.015"/>
+  <system-out><![CDATA[1
 3
 5
 7
 9
-1
-3
-5
-7
-9
-1
-5
-7
-9
-10
-Apple
-Orange
-Pomegranete
-7.7
-27.7
-33.3
-Aple
-Guava
-Orange
-7.7
-27.7
-33.3
-7.7
-27.7
-33.3
-Aple
-Guava
-Orange
+Maximum Value of an array is9
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
